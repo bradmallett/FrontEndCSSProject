@@ -31,7 +31,7 @@ margin: 0 20px;
   color: #F28705;
 }
 .item{
-  margin: 0 20px; 
+  margin: 20px; 
   text-align: center;
   font-size: 16px;
   font-weight: bold;
@@ -46,6 +46,11 @@ margin: 0 20px;
               0 0 50px #ebe6e6;    
 }
 
+#home-click { 
+  background: #c1c1c1;
+  border-radius: 30px;  
+}
+
 #home-click:hover { 
   background: #F28705;
 }
@@ -57,7 +62,8 @@ margin: 0 20px;
 img{
   width: 200px;
   height: 160px;
-  border-radius: 5px 5px 0 0;  
+  border-radius: 30px;  
+  margin-bottom: 5px;
 }
 .selecionado:hover {  
   cursor: pointer;
@@ -110,4 +116,15 @@ btnAdd{
 
 .bg-dark {
   background-color: #02403A!important;
+}
+
+.logo-contain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#title-logo {
+  margin: 10px 0px;
+  border-radius: 10px;
 }
